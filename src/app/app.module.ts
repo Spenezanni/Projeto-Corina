@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { TarefasComponent } from './tarefas/tarefas.component';
 import { UsuarioComponent } from './usuario/usuario.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { UsuarioComponent } from './usuario/usuario.component';
     LoginComponent,
     TarefasComponent,
     UsuarioComponent,
+    CadastroComponent,
 
   ],
   imports: [
