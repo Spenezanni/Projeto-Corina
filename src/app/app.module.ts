@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { TarefasComponent } from './tarefas/tarefas.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     routing
     
   ],
